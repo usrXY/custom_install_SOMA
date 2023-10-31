@@ -1,6 +1,6 @@
 - name: Install Screenly OSE Monitoring Add-On
   hosts: all
-  user: pi
+  user: player1
   become: yes
 
   roles:
