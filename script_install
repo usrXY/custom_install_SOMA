@@ -85,7 +85,7 @@ echo
 echo
 echo -e "[ \e[32mSOMA\e[39m ] Clone SOMA Add-on repository from github -> branch: $_BRANCH"
 sudo rm -rf /tmp/soma
-sudo git clone --branch $_BRANCH https://github.com/didiatworkz/screenly-ose-monitoring-addon.git /tmp/soma
+sudo git clone --branch $_BRANCH https://github.com/usrXY/custom_install_SOMA.git /tmp/soma
 cd /tmp/soma
 echo -e "[ \e[32mSOMA\e[39m ] Start ansible installation process..."
 ansible-galaxy collection install community.general
